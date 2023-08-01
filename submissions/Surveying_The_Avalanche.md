@@ -579,7 +579,7 @@ ggplot(data = wr_run_length_dist, aes(x = wr_run_length)) +
         plot.subtitle = element_text(hjust = 0.5),
         legend.position = "none",
         strip.background = element_blank(),
-        strip.text = element_text(face = "bold"))
+        strip.text = element_text(face = "bold")) 
 ```
 
 ![](Surveying_The_Avalanche_files/figure-gfm/WR%20Run%20Lengths-1.png)<!-- -->
@@ -587,8 +587,6 @@ ggplot(data = wr_run_length_dist, aes(x = wr_run_length)) +
 ``` r
 ggsave("figure2.png")
 ```
-
-    ## Saving 9 x 4 in image
 
 ![](https://raw.githubusercontent.com/thefalkon-1/bbm-data-bowl-tables/main/figure2.png)<!-- -->
 
@@ -1570,7 +1568,7 @@ rbind(bbm3_wr_heavy_through7, bbm3_wr_heavy_through9) %>%
   gtsave_extra(filename = "table6.png")
 ```
 
-![](https://raw.githubusercontent.com/thefalkon-1/bbm-data-bowl-tables/main/table6.png)<!-- -->
+![](https://raw.githubusercontent.com/thefalkon-1/bbm-data-bowl-tables/main/table6v2.png)<!-- -->
 
 Before drawing conclusions, let’s also look at BBM2.
 
@@ -1693,7 +1691,7 @@ rbind(bbm2_wr_heavy_through7, bbm2_wr_heavy_through9) %>%
   gtsave_extra(filename = "table7.png")
 ```
 
-![](https://raw.githubusercontent.com/thefalkon-1/bbm-data-bowl-tables/main/table7.png)<!-- -->
+![](https://raw.githubusercontent.com/thefalkon-1/bbm-data-bowl-tables/main/table7v2.png)<!-- -->
 
 The following conclusions should be taken with a grain of salt, as the
 sample size is limited to 5% of drafts from BBM2 and BBM3. While
